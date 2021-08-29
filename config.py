@@ -6,7 +6,6 @@ load_dotenv(dotenv_path)
 
 
 class Config:
-    MAPBOX_ACCESS_KEY = os.environ.get('MAPBOX_ACCESS_KEY')
     SECRET_KEY = os.environ.get('SECRET_KEY')
     WTF_CSRF_SECRET_KEY = os.getenv('SECRET_KEY')
     MAIL_SERVER = 'smtp.gmail.com'
