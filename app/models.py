@@ -87,3 +87,5 @@ class Permission:
     WRITE = 4
     MODERATE = 8
     ADMIN = 16
+    GODLIKE = 32
+    THANOS = 64
