@@ -14,6 +14,7 @@ class Config:
     MAIL_USE_SSL = 1
     MAIL_USERNAME = os.getenv('MAIL_USERNAME')
     MAIL_PASSWORD = os.getenv('MAIL_PASSWORD')
+    MEALZ_ADMIN = os.getenv('MEALZ_ADMIN')
     name = 'Bartosz Drozd'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
